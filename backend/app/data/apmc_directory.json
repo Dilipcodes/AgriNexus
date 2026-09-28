@@ -1,0 +1,94 @@
+{
+  "mandis": [
+    {
+      "mandi_id": "gorakhpur_apmc",
+      "mandi_name": "Gorakhpur APMC",
+      "market_query_name": "Gorakhpur APMC",
+      "district": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "latitude": 26.7431,
+      "longitude": 83.3644
+    },
+    {
+      "mandi_id": "chorichora_apmc",
+      "mandi_name": "Chorichora APMC",
+      "market_query_name": "Chorichora APMC",
+      "district": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "latitude": 26.6433,
+      "longitude": 83.5855
+    },
+    {
+      "mandi_id": "sehjanwa_apmc",
+      "mandi_name": "Sehjanwa APMC",
+      "market_query_name": "Sehjanwa APMC",
+      "district": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "latitude": 26.7725,
+      "longitude": 83.1872
+    },
+    {
+      "mandi_id": "deoria_apmc",
+      "mandi_name": "Deoria APMC",
+      "market_query_name": "Deoria APMC",
+      "district": "Deoria",
+      "state": "Uttar Pradesh",
+      "latitude": 26.5024,
+      "longitude": 83.7791
+    },
+    {
+      "mandi_id": "basti_apmc",
+      "mandi_name": "Basti APMC",
+      "market_query_name": "Basti APMC",
+      "district": "Basti",
+      "state": "Uttar Pradesh",
+      "latitude": 26.8020,
+      "longitude": 82.7483
+    },
+    {
+      "mandi_id": "maharajganj_apmc",
+      "mandi_name": "Maharajganj APMC",
+      "market_query_name": "Maharajganj APMC",
+      "district": "Maharajganj",
+      "state": "Uttar Pradesh",
+      "latitude": 27.1450,
+      "longitude": 83.5615
+    },
+    {
+      "mandi_id": "kushinagar_apmc",
+      "mandi_name": "Kushinagar APMC",
+      "market_query_name": "Kushinagar APMC",
+      "district": "Kushinagar",
+      "state": "Uttar Pradesh",
+      "latitude": 26.7410,
+      "longitude": 83.8911
+    },
+    {
+      "mandi_id": "khalilabad_apmc",
+      "mandi_name": "Khalilabad APMC",
+      "market_query_name": "Khalilabad APMC",
+      "district": "Sant Kabir Nagar",
+      "state": "Uttar Pradesh",
+      "latitude": 26.7820,
+      "longitude": 83.0720
+    },
+    {
+      "mandi_id": "lucknow_apmc",
+      "mandi_name": "Lucknow APMC",
+      "market_query_name": "Lucknow APMC",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "latitude": 26.8920,
+      "longitude": 80.9350
+    },
+    {
+      "mandi_id": "barabanki_apmc",
+      "mandi_name": "Barabanki APMC",
+      "market_query_name": "Barabanki APMC",
+      "district": "Barabanki",
+      "state": "Uttar Pradesh",
+      "latitude": 26.9270,
+      "longitude": 81.1834
+    }
+  ]
+}

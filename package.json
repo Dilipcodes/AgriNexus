@@ -1,0 +1,16 @@
+{
+  "name": "agrinexus",
+  "version": "1.0.0",
+  "description": "AgriNexus - Data-driven agricultural decision intelligence platform",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm --prefix frontend install",
+    "backend": "cd backend && python -m uvicorn app.main:app --reload --port 8000",
+    "frontend": "npm --prefix frontend run dev",
+    "dev": "concurrently --kill-others \"npm run backend\" \"npm run frontend\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

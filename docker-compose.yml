@@ -1,0 +1,14 @@
+services:
+  agrinexus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agrinexus-app
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    environment:
+      - PORT=8000
+      - GEMINI_MODEL=gemini-3.6-flash
+    restart: unless-stopped

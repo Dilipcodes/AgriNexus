@@ -1,0 +1,29 @@
+# Git & IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Node / Frontend build artifacts
+node_modules
+frontend/node_modules
+frontend/dist
+
+# Python caches & virtual environments
+__pycache__
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv
+.venv
+env
+
+# Local environment secrets (pass via --env-file or docker-compose instead)
+.env
+backend/.env
+
+# Test / verification scripts
+backend/test_*.py
+backend/verify_*.py

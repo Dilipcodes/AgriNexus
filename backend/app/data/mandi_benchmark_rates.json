@@ -1,0 +1,26 @@
+{
+  "markets": {
+    "Gorakhpur": {
+      "mandi_name": "Gorakhpur Mandi",
+      "distance": "18 km",
+      "state": "Uttar Pradesh",
+      "district": "Gorakhpur",
+      "disclaimer": "Prices are latest reported mandi rates from AGMARKNET. Actual selling price may vary based on quality and market conditions.",
+      "items": [
+        { "crop": "Rice", "min_price": "2,300", "max_price": "2,650", "modal_price": "2,500", "icon": "🌾" },
+        { "crop": "Wheat", "min_price": "2,350", "max_price": "2,700", "modal_price": "2,550", "icon": "🌾" },
+        { "crop": "Maize", "min_price": "2,000", "max_price": "2,400", "modal_price": "2,200", "icon": "🌽" },
+        { "crop": "Arhar", "min_price": "6,500", "max_price": "7,200", "modal_price": "6,900", "icon": "🫘" },
+        { "crop": "Mustard", "min_price": "5,400", "max_price": "6,100", "modal_price": "5,750", "icon": "🌱" }
+      ],
+      "provenance": {
+        "factor": "mandi_rates",
+        "source": "AGMARKNET Reference Bulletin (Reported APMC rates)",
+        "timestamp_or_period": "September 2026 Reference",
+        "geographic_scope": "Gorakhpur Mandi (APMC)",
+        "status": "demo",
+        "methodology_note": "Reported APMC market rates used for economic decision support; not a guaranteed farmgate price."
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "fertilizer_packages": {
+    "rice": {
+      "crop_name": "Rice",
+      "target_yield_basis": "45-55 Qtl/ha",
+      "region": "Eastern Uttar Pradesh (Middle Gangetic Plain Agro-Climatic Zone)",
+      "soil_fertility_class": "Medium Fertility (Available N: 250-400 kg/ha, P: 10-25 kg/ha, K: 150-250 kg/ha)",
+      "recommendation": {
+        "urea": "100–120 kg/ha",
+        "dap": "50–60 kg/ha",
+        "mop": "40–50 kg/ha"
+      },
+      "assumptions": "Package of practices for semi-dwarf high-yielding rice in medium-fertility alluvial plains under irrigated conditions.",
+      "disclaimer": "Please adjust based on local agricultural department (KVK) / official Soil Health Card advice. Actual field-level nutrient requirements must be verified with an official soil test.",
+      "source_citation": "ICAR-National Rice Research Institute (NRRI) Bulletin on Nutrient Management in Alluvial Soils & UPCAR Agronomic Guidelines",
+      "provenance": {
+        "factor": "fertilizer_guideline",
+        "source": "ICAR-NRRI / UPCAR Package of Practices (Medium Soil Fertility Benchmark)",
+        "timestamp_or_period": "Official Agronomy Edition",
+        "geographic_scope": "Middle Gangetic Plain (Eastern UP Alluvial Zone)",
+        "status": "estimated",
+        "methodology_note": "Nutrient guidance calculated from ICAR general fertility tables for medium fertility soils. Not field-tested on this specific parcel."
+      }
+    },
+    "wheat": {
+      "crop_name": "Wheat",
+      "target_yield_basis": "40-50 Qtl/ha",
+      "region": "North-Eastern Plains Zone (NEPZ)",
+      "soil_fertility_class": "Medium Fertility Loamy Soil",
+      "recommendation": {
+        "urea": "120–150 kg/ha",
+        "dap": "60–65 kg/ha",
+        "mop": "40–45 kg/ha"
+      },
+      "assumptions": "Irrigated timely sown wheat in alluvial loamy soils following Kharif rice.",
+      "disclaimer": "Verify with soil test before field application. Adjust based on local KVK guidance.",
+      "source_citation": "ICAR-IIWBR Karnal Package of Practices for NEPZ",
+      "provenance": {
+        "factor": "fertilizer_guideline",
+        "source": "ICAR-IIWBR Package of Practices (NEPZ Zone)",
+        "timestamp_or_period": "Official Agronomy Edition",
+        "geographic_scope": "North-Eastern Plains Zone",
+        "status": "estimated",
+        "methodology_note": "Guideline values for medium soil fertility class."
+      }
+    },
+    "maize": {
+      "crop_name": "Maize",
+      "target_yield_basis": "50-60 Qtl/ha",
+      "region": "Indo-Gangetic Plain",
+      "soil_fertility_class": "Well-drained Medium Fertility Soil",
+      "recommendation": {
+        "urea": "110–130 kg/ha",
+        "dap": "55–60 kg/ha",
+        "mop": "40–50 kg/ha"
+      },
+      "assumptions": "Hybrid Kharif maize under well-drained loamy condition.",
+      "disclaimer": "Split nitrogen application (1/3 basal, 1/3 knee-high, 1/3 tasseling) is recommended.",
+      "source_citation": "ICAR-IIMR Ludhiana Maize Agronomy Guide",
+      "provenance": {
+        "factor": "fertilizer_guideline",
+        "source": "ICAR-IIMR Package of Practices",
+        "timestamp_or_period": "Official Agronomy Edition",
+        "geographic_scope": "Indo-Gangetic Alluvial Plain",
+        "status": "estimated",
+        "methodology_note": "Guideline values for hybrid maize in medium-fertility soils."
+      }
+    }
+  }
+}

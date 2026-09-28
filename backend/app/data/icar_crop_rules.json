@@ -1,0 +1,132 @@
+{
+  "crops": [
+    {
+      "id": "rice",
+      "name": "Rice",
+      "icon": "🌾",
+      "seasons": ["Kharif"],
+      "temp_min": 20,
+      "temp_max": 35,
+      "temp_opt_min": 25,
+      "temp_opt_max": 32,
+      "rainfall_min": 700,
+      "rainfall_max": 1500,
+      "ph_min": 5.5,
+      "ph_max": 7.8,
+      "suitable_soils": ["Loamy", "Clayey", "Clayey Loam", "Alluvial"],
+      "regional_prevalence_threshold": 25,
+      "summary_reasons": [
+        "Suitable temperature and rainfall",
+        "Good soil conditions",
+        "Commonly grown in your area",
+        "Good market price"
+      ],
+      "detailed_reasons": [
+        "Suitable temperature (25°C – 32°C)",
+        "Adequate rainfall (800 – 1200 mm)",
+        "Good soil pH (6.0 – 7.5)",
+        "Suitable moisture conditions",
+        "Commonly grown in your area",
+        "Good market price"
+      ],
+      "ideal_season": "Kharif (June – October)",
+      "growing_guide": {
+        "soilRequirement": "Clayey loam to loamy soil with good water retention.",
+        "sowingTime": "Nursery: May–June; Transplanting: June–July.",
+        "irrigationNeeds": "Standing water 2-5 cm during vegetative and reproductive stages."
+      },
+      "duration_min_days": 120,
+      "duration_max_days": 135,
+      "duration_label": "120–135 Days",
+      "agronomic_risks": [
+        "High moisture sensitivity: standing water (2–5 cm) required during vegetative and reproductive stages.",
+        "Blast susceptibility (Magnaporthe oryzae) under prolonged leaf wetness; excessive nitrogen increases risk.",
+        "Well adapted to lowlands; tolerates periodic field submergence."
+      ],
+      "source_citation": "ICAR-NRRI Cuttack Agronomy Bulletin & State Agricultural University Package of Practices"
+    },
+    {
+      "id": "maize",
+      "name": "Maize",
+      "icon": "🌽",
+      "seasons": ["Kharif", "Zaid", "Spring"],
+      "temp_min": 18,
+      "temp_max": 35,
+      "temp_opt_min": 21,
+      "temp_opt_max": 30,
+      "rainfall_min": 450,
+      "rainfall_max": 900,
+      "ph_min": 5.8,
+      "ph_max": 7.5,
+      "suitable_soils": ["Loamy", "Sandy Loam", "Well-drained Alluvial"],
+      "regional_prevalence_threshold": 10,
+      "summary_reasons": [
+        "Suitable for your soil and climate",
+        "Good market demand",
+        "Alternative crop option"
+      ],
+      "detailed_reasons": [
+        "Optimal temperature (21°C – 30°C)",
+        "Moderate rainfall requirement (500 – 800 mm)",
+        "Well-drained loamy soil required (avoid waterlogging)",
+        "High industrial & feed demand in regional markets"
+      ],
+      "ideal_season": "Kharif / Spring",
+      "growing_guide": {
+        "soilRequirement": "Deep, fertile and well-drained loamy to sandy loam soils.",
+        "sowingTime": "Kharif: onset of monsoon (June-July).",
+        "irrigationNeeds": "Critical stages: knee-high, tasseling, and silking."
+      },
+      "duration_min_days": 90,
+      "duration_max_days": 105,
+      "duration_label": "90–105 Days",
+      "agronomic_risks": [
+        "Severe waterlogging intolerance: excess root-zone moisture causes asphyxiation within 24–48 hours.",
+        "Northern Corn Leaf Blight (Exserohilum turcicum) risk under humid conditions; requires well-drained loamy soil.",
+        "Critical water-sensitive stages: knee-high, tasseling, and silking."
+      ],
+      "source_citation": "ICAR-IIMR Ludhiana Maize Agronomy Guide"
+    },
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "icon": "🌾",
+      "seasons": ["Rabi"],
+      "temp_min": 10,
+      "temp_max": 28,
+      "temp_opt_min": 15,
+      "temp_opt_max": 25,
+      "rainfall_min": 300,
+      "rainfall_max": 650,
+      "ph_min": 6.0,
+      "ph_max": 7.5,
+      "suitable_soils": ["Loamy", "Clayey Loam", "Alluvial"],
+      "regional_prevalence_threshold": 20,
+      "summary_reasons": [
+        "Suitable for Rabi season",
+        "Commonly grown in your area",
+        "Stable market price"
+      ],
+      "detailed_reasons": [
+        "Requires cooler temperature (12°C – 25°C)",
+        "Excellent rotational fit following Kharif rice",
+        "High regional MSP and mandi stability"
+      ],
+      "ideal_season": "Rabi (November – April)",
+      "growing_guide": {
+        "soilRequirement": "Well-drained loams and clay loams.",
+        "sowingTime": "First to third week of November.",
+        "irrigationNeeds": "CRI (Crown Root Initiation) stage 21 days after sowing is critical."
+      },
+      "duration_min_days": 115,
+      "duration_max_days": 125,
+      "duration_label": "115–125 Days",
+      "agronomic_risks": [
+        "CRI (Crown Root Initiation) irrigation at 21 days after sowing is critical for tillering.",
+        "Susceptible to Yellow/Stripe Rust (Puccinia striiformis) and terminal heat stress during late-grain filling.",
+        "Requires cooler temperatures (12°C–25°C); highly sensitive to early seasonal heat."
+      ],
+      "source_citation": "ICAR-IIWBR Karnal Wheat Package of Practices"
+    }
+  ]
+}

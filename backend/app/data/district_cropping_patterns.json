@@ -1,0 +1,28 @@
+{
+  "districts": {
+    "Gorakhpur": {
+      "timeframe": "Based on 5 years of data (2019 - 2024)",
+      "crops": [
+        { "name": "Rice", "percentage": 43, "color": "#16a34a", "icon": "🌾", "bg": "bg-emerald-500" },
+        { "name": "Wheat", "percentage": 31, "color": "#d97706", "icon": "🌾", "bg": "bg-amber-600" },
+        { "name": "Maize", "percentage": 17, "color": "#eab308", "icon": "🌽", "bg": "bg-yellow-500" },
+        { "name": "Pulses", "percentage": 6, "color": "#92400e", "icon": "🫘", "bg": "bg-amber-800" },
+        { "name": "Other", "percentage": 3, "color": "#64748b", "icon": "🌱", "bg": "bg-slate-500" }
+      ],
+      "history": {
+        "previous_season_crop": "Wheat",
+        "currently_detected_crop": "Rice (Satellite-based estimate)",
+        "common_rotation": "Rice ➔ Wheat"
+      },
+      "note": "Note: This is based on satellite analysis and government data. Actual crops may vary.",
+      "provenance": {
+        "factor": "cropping_pattern",
+        "source": "Hackathon Reference Template (DES/data.gov.in format)",
+        "timestamp_or_period": "2019 - 2024 (Illustrative)",
+        "geographic_scope": "Gorakhpur Agro-climatic District",
+        "status": "demo",
+        "methodology_note": "Illustrative crop distribution matching UI reference specification. Not a verified district census record."
+      }
+    }
+  }
+}
